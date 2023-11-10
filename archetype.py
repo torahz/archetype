@@ -37,8 +37,8 @@ def train_bot(file_path):
 
         found = False
         for entry in data:
-            if preprocessed_input in entry['question']: 
-                found = True
+          if preprocessed_input in entry['question']:
+                found = True  
                 print("Bot:", entry['answer'])
                 break
 
